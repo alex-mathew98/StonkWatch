@@ -1,0 +1,427 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.searchBox{
+  margin: 30px;
+}
+
+.OuterWrap{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.leftSide{
+  margin: 20px;
+  width: 60%;
+  padding: 20px;
+}
+
+.rightSide{
+  margin: 20px;
+  width: 40%;
+  padding: 20px;
+}
+
+.searchBar{
+  height: 10%;
+  margin: 40px;
+  padding: 20px;
+}
+
+.searchBar SearchTicker{
+  margin-top: 20px;
+  width:600px;
+  height:50px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.newsSection{
+  height: 850px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.earningsCalendar{
+  height: 850px;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.watchList{
+  height: 500px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.watchList{
+  margin-bottom: 40px;
+  margin-right: 30px;
+  overflow-y: scroll;
+}
+
+.watchListSection{
+  height: 650px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom:40px;
+  margin-right: 30px;
+  overflow-y: scroll;
+}
+
+.trendingStocks{
+  height: 470px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.newsWrap{
+  display: inline;
+  align-content: flex-end;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.article{
+  margin: 20px;
+  height: 150px;
+  display: flex;
+}
+
+.article-border{
+  border: 2px solid black;
+  margin: 20px;
+  height: 170px;
+  display: flex;
+}
+
+.hTitle{
+  padding-left: 20px;
+}
+
+.hSubHeading{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.sectionTitle{
+  display: flex;
+  flex-direction: column;
+}
+
+.hyperlink{
+  text-decoration: none;
+  flex-direction: column;
+  color: black;
+}
+
+.searchBar input{
+  margin-top: 20px;
+  width:600px;
+  height:50px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.x{
+  float: left;
+  border: 2.25px solid black;
+  width: 150px;
+  text-align: center;
+}
+
+ .OWrap{
+  border: 2px solid black;
+  margin: 20px;
+ }
+
+ .top{
+  border: 1px solid black;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 550px;
+ }
+
+ .middle{
+  border: 1px solid black;
+  margin: 20px;
+  justify-content: space-evenly;
+  height: 800px;
+  background-color: black;
+  color: black;
+ }
+
+ .bottom{
+  border: 1px solid black;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 600px;
+ }
+
+ .t-left{
+  margin: 20px;
+  width: 60%;
+ }
+
+ .t-right{
+  margin: 10px;
+  width: 60%;
+  background-color: #313e4c;
+  height:420px;
+  margin-top:150px;
+  text-align: center;
+ }
+
+ .graphSection{
+  margin: 30px;
+  width: 100%;
+  background-color: black;
+  height: 800px;
+  margin-top:150px;
+ }
+
+ .b-left{
+  margin: 20px;
+  width: 60%;
+  overflow-y: scroll;
+ }
+
+ .b-right{
+  margin: 20px;
+  padding: 20px;
+  width: 30%;
+  overflow-y: scroll;
+ }
+
+ .sample{
+   margin: 20px;
+ }
+
+ .title{
+   margin:20px;
+ }
+
+ .A-parent{
+  margin: 10px;
+  margin-top: 40px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
+ .B{
+  width: 50%;
+  padding:20px
+ }
+
+ .C{
+  width: 50%;
+  padding:20px
+ }
+
+ .tabText-temp{
+  font-size: 1.5vmin;
+ }
+
+ .welcomeMessage{
+   margin: 50px;
+   text-align: center;
+ }
+
+ .watchList_Title{
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .right-half{
+   margin: 10px;
+ }
+
+.y{
+  padding: 10px;
+  word-wrap: normal;
+  overflow: hidden;
+}
+
+.icon-image{
+  width: 70px;
+  height: 70px;
+  margin-bottom: 2rem;
+}
+
+.subTitle{
+  margin-left: 5px;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+}
+
+.loginTitle{
+  margin:30px;
+  text-align: center;
+}
+.loginTitleA{
+  margin:30px;
+  text-align: center;
+  display: flex;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.newsImages{
+  width: 100%;
+}
+
+.content-tabs{
+  border: 0.5px solid black;
+  border-top: none;
+}
+
+h1{
+  display: inline-block;
+}
+
+.PieChart{
+  width:600px;
+  height: 400px;
+  margin: 60px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.portolioTable{
+  width: 95%;
+  height: 500px;
+  margin: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+Button{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.portfolioTitle{
+  padding-left: 20px;
+}
+
+.modalSearchBar{
+  display: flex;
+  justify-content: space-evenly;
+}
+.portfolioDetails{
+  display: flex;
+  justify-content: space-between;
+}
+
+.addButton{
+  margin-top:10px;
+}
+
+.portfolioValue{
+  padding: 100px;
+}
+
+.formButtons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.signUpFormButton{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.articleHeader{
+  margin-bottom: 10px;
+}
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+}
+.pagination > .active > a{
+  background-color: #777a7a ;
+  border-color: #777a7a ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #777a7a ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #777a7a ;
+  border-color: #777a7a;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #777a7a
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
+
+.inProfit{
+  color: rgb(12, 134, 12);
+}
+
+.inLoss{
+  color: rgb(173, 30, 30);
+}
+
+.errorCard{
+  justify-content: center;
+}
+
+.customTooltip{
+  Border-radius: 0.25rem;
+  Background:#67727c;
+  Color:#fff;
+  Padding: 1rem;
+  box-shadow: 15px 30px 40px 5 px rgba(0,0,0,0.5);
+  Text-align: center;
+}
+  
+Link{
+  text-decoration: none;
+}
+
+.portfolioDefaultMessage{
+  justify-content: center;
+  text-align: center;
+}
