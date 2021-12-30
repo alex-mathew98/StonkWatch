@@ -6,19 +6,27 @@ A full stack web-application which acts as a simple dashboard application, and s
 Project files:
 
 a.stonkwatch-client(Front-End)
+
 b.stonkwatch-server(Back-End)
+
 c.stonkwatch-DB
 
 To run FE code(stonkwatch-client):
-a. cd stonkwatch-client
-b. npm i (install dependencies)
-c. npm start 
+
+1. cd stonkwatch-client
+
+2. npm i (install dependencies)
+
+3. npm start 
 
 —With this client side code will be launched and running
 
-To run BE code(stonk-watch-server)
-a. cd stonk-watch-server
-b. npm i (install dependencies)
-c. nodemon server.js
+To run BE code(stonk-watch-server):
+
+1. cd stonk-watch-server
+ 
+2. npm i (install dependencies)
+
+3. nodemon server.js
 
 —With this server side code will be running
